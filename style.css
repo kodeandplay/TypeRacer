@@ -1,0 +1,49 @@
+body {
+  font-family:'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+#prompt {
+  padding:15px;
+  border:1px solid black;
+  width:570px;
+  margin-bottom:20px;
+}
+
+#user-word-box {
+  width:570px;
+  height:25px;
+  font-size:25px;
+  border:1px solid black;
+  padding:15px;
+}
+
+.current-word {
+  text-decoration:underline;
+  color:green;
+}
+
+.word-error {
+  color:red;
+}
+
+.word-box-error {
+  background-color:#F298EC;
+}
+
+.word {
+  line-height:30px;
+}
+
+.modal {
+  position:absolute;
+  left:100px;
+  top:50px;
+  width:300px;
+  height:200px;
+  border:1px solid #3d3d3d;
+  background-color:#02E232;
+  opacity:0.9;
+  text-align:center;
+}
+

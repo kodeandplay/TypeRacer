@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <title>Page Title</title>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width,initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+	<link rel='stylesheet' href='style.css' />
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+</head>
+<body>
+<div id='prompt'></div>
+<div class='modal'>
+    <h4>Welcome! Good luck improving/testing your typing speed.</h4>
+</div>
+<div id='user-word-div'>
+  <input type='text' id='user-word-box' disabled='disabled' spellcheck='false'
+         autocomplete='off' autocorrect='off' autocapitalize='off' placeholder='Type here...'>
+</div>
+<script src='http://code.jquery.com/jquery.js'></script>
+<script src='http://underscorejs.org/underscore.js'></script>
+<script src='http://backbonejs.org/backbone.js'></script>
+<script src='./app.js'></script>
+<script src='./data.js'></script>
+<script src='./settings.js'></script>
+<script>
+
+$(document).ready(function() {
+  App.init();
+  App.setModal();
+});
+
+</script>
+</body>
+</html>
+
+
+          
